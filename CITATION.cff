@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset or baseline evaluation suite in research, benchmarks, or technical reports, please cite it using the metadata below."
+type: dataset
+title: "Open Image Enhancement, Deblurring & Pixel-Art Scaling Baseline Dataset (v1.0.0)"
+version: "1.0.0"
+date-released: "2026-11-25"
+# Archival DOIs (Zenodo & Harvard Dataverse) will be populated upon public release.
+license: "CC-BY-4.0"
+url: "https://enhancephoto.org/pixel-art-upscaler"
+authors:
+  - name: "Open IQA Baseline Benchmark Project"
+    website: "https://enhancephoto.org"
+keywords:
+  - "image quality assessment"
+  - "super-resolution"
+  - "image restoration"
+  - "deblurring"
+  - "pixel art scaling"
+  - "open baseline"
+  - "public domain"
+  - "cc0"
+  - "cc-by-4.0"
+abstract: "A reproducible CC BY 4.0 benchmark of 40 verified CC0 and Public Domain source images across 6 restoration and scaling tasks (archival denoising, 2x/4x upscaling, Gaussian deblurring, JPEG Q30 deblocking, historical print clarity, and 4x RGBA pixel-art scaling), paired with deterministic local open-source baseline outputs and full-reference/no-reference objective IQA metrics."

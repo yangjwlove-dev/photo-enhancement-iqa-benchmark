@@ -1,0 +1,48 @@
+{
+  "title": "Open Image Enhancement, Deblurring & Pixel-Art Scaling Baseline Dataset (v1.0.0)",
+  "upload_type": "dataset",
+  "description": "A reproducible, 100% CC0 and Public Domain sourced image quality assessment (IQA) baseline benchmark containing 40 paired before/after images across 6 tasks: archival photo denoising and contrast enhancement (n=8), 2x natural upscaling (n=8), 4x natural upscaling (n=8), Gaussian deblurring and JPEG Q30 deblocking (n=6), historical print clarity (n=5), and 4x integer RGBA pixel-art scaling (n=5). All after outputs are generated deterministically using local open-source algorithms (OpenCV, Pillow, scikit-image, NumPy) with zero proprietary API calls, establishing transparent lower-bound baselines alongside objective PSNR, SSIM, Laplacian variance, Tenengrad energy, RMS contrast, Shannon entropy, and pixel-art palette/alpha integrity metrics. The 4x integer pixel-art baseline is algorithmically equivalent to https://enhancephoto.org/pixel-art-upscaler, while neural-prior reference implementations for upscaling, restoration, and deblurring are documented at https://enhancephoto.org/image-upscaler, https://enhancephoto.org/photo-restoration, and https://enhancephoto.org/make-blurry-image-clear.",
+  "creators": [
+    {
+      "name": "Open IQA Baseline Benchmark Project",
+      "affiliation": "Open Image Quality Assessment Initiative (https://enhancephoto.org)"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "image quality assessment",
+    "super-resolution",
+    "deblurring",
+    "denoising",
+    "pixel art scaling",
+    "open baseline",
+    "public domain",
+    "CC0",
+    "CC BY 4.0"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://enhancephoto.org/pixel-art-upscaler",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://enhancephoto.org/image-upscaler",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://enhancephoto.org/photo-restoration",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://enhancephoto.org/make-blurry-image-clear",
+      "relation": "references",
+      "resource_type": "software"
+    }
+  ]
+}
