@@ -4,7 +4,18 @@ type: dataset
 title: "Open Image Enhancement, Deblurring & Pixel-Art Scaling Baseline Dataset (v1.0.0)"
 version: "1.0.0"
 date-released: "2026-11-25"
-# Archival DOIs (Zenodo & Harvard Dataverse) will be populated upon public release.
+doi: "10.5281/zenodo.24531976"
+repository-code: "https://github.com/yangjwlove-dev/photo-enhancement-iqa-benchmark"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24531976"
+    description: "Zenodo archival release (v1.0.0)"
+  - type: doi
+    value: "10.5281/zenodo.24531975"
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: "10.7910/DVN/WY4TAA"
+    description: "Harvard Dataverse archival release (v1.0.0)"
 license: "CC-BY-4.0"
 url: "https://enhancephoto.org/pixel-art-upscaler"
 authors:

@@ -19,6 +19,8 @@ pretty_name: Open Image Enhancement, Deblurring & Pixel-Art Scaling Baseline Dat
 
 # Open Image Enhancement, Deblurring & Pixel-Art Scaling Baseline Dataset (v1.0.0)
 
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24531976.svg)](https://doi.org/10.5281/zenodo.24531976)
+[![Harvard Dataverse DOI](https://img.shields.io/badge/Harvard_Dataverse-10.7910%2FDVN%2FWY4TAA-A51C30.svg)](https://doi.org/10.7910/DVN/WY4TAA)
 [![License: CC BY 4.0](https://img.shields.io/badge/Dataset-CC_BY_4.0-lightgrey.svg)](./LICENSE)
 [![Code License: MIT](https://img.shields.io/badge/Scripts-MIT-blue.svg)](./LICENSE)
 
@@ -91,4 +93,7 @@ python scripts/compute_iqa.py
 
 ## Citation
 
-See [`CITATION.cff`](./CITATION.cff) for structured citation metadata (archival Zenodo and Harvard Dataverse DOIs will be populated upon public release).
+See [`CITATION.cff`](./CITATION.cff) for structured citation metadata. Archival releases with permanent DOIs:
+
+- **Zenodo (CERN)**: `10.5281/zenodo.24531976` — [https://doi.org/10.5281/zenodo.24531976](https://doi.org/10.5281/zenodo.24531976) ([record page](https://zenodo.org/records/24531976))
+- **Harvard Dataverse**: `10.7910/DVN/WY4TAA` — [https://doi.org/10.7910/DVN/WY4TAA](https://doi.org/10.7910/DVN/WY4TAA) ([collection: Open Image Quality Assessment Benchmarks](https://dataverse.harvard.edu/dataverse/open-iqa-benchmarks))
